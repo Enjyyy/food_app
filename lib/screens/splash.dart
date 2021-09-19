@@ -21,8 +21,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Image.asset(
-        'assets/Restaurant Badge Logo.png',
+        'assets/splash.jpg',
         fit: BoxFit.cover,
       ),
     );

@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       routes: {
         SplashScreen.id: (context) => SplashScreen(),
         SignInScreen.id: (context) => SignInScreen(),
